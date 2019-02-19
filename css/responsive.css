@@ -1,0 +1,43 @@
+@media screen and (max-width: 360px) {
+    .small-width {
+        max-height: 200px;
+    }
+    h1 {
+        font-size: 1rem;
+        margin-top: 40px;
+    }
+    h2 {
+        font-size: 0.75rem;
+    }
+    .link {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 361px) {
+    .uneven-element-width {
+        max-width: 100%;
+    }
+    .small-width {
+        max-height: 200px;
+    }
+    h1 {
+        font-size: 1.25rem;
+        margin-top: 40px;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .link {
+        font-size: 0.75rem;
+    }
+    .uneven-element-width {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 989px) and (min-width: 576px) {
+    .uneven-element-width {
+        max-width: 50%;
+    }
+}

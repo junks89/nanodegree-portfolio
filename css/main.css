@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-thin {
+    font-weight: 110;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.line {
+    height: 0px;
+    border: none;
+    border-top: 3px solid #7d97ad;
+}
+
+.text-featured {
+    color: #7d97ad;
+    font-weight: 90;
+}
+
+.text-projecttitle {
+    color: #2d3c49;
+    font-weight: 90;
+}
+
+.logo {
+    padding-top: 15px;
+    max-height: 90px;
+    max-width: 56px;
+}
+
+.main-picture {
+    max-height: 200px;
+}
+
+.link {
+    font-size: 1rem;
+}
